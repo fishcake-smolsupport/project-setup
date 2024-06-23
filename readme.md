@@ -226,7 +226,7 @@ Next, commit the changes and push them to the staging environment by running the
 ```Shell
 $ git add app.py config.py
 $ git commit -m "Add config support"
-$ git push staging master
+$ git push staging main
 ```
 
 These commands commit changes in app.py and the new config.py file to the local Git repository and then push them to the staging environment, which triggers a new building and deployment process. Before proceeding, you can customize the environment variables for this environment using the Heroku CLI:
